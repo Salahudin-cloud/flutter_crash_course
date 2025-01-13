@@ -25,12 +25,12 @@ class Home extends StatelessWidget {
         child: const Text(
           "Hello world, from flutter!",
           style: TextStyle(
-            color: Colors.white,
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2,
-            fontStyle: FontStyle.italic,
-          ),
+              color: Colors.white,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2,
+              fontStyle: FontStyle.italic,
+              decoration: TextDecoration.underline),
         ));
   }
 }
